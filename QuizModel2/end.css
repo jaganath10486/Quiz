@@ -1,0 +1,49 @@
+:root{
+    font-size: 62%;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.container
+{
+    margin-top: 200px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#name
+{
+   padding: 1.5rem;
+   margin-bottom: 1rem;
+}
+.btn
+{
+   font-size: 2.5rem;
+   padding: 1.5rem;
+   text-decoration: none;
+   margin-bottom: 1rem;
+   background-color: lightgray;
+   width: 20rem;
+   text-align: center;
+   border: 0.1rem solid lightblue;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    box-shadow: 0rem 0.4rem 1rem lightsteelblue;
+    background-color: lightcyan;
+}

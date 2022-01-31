@@ -1,0 +1,93 @@
+:root
+{
+  font-size: 62%;
+}
+
+.container
+{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100vw;
+}
+
+#questions
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.choiceContainer
+{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.choice-prefix
+{
+    padding: 1.5rem 3rem;
+    background-color: #56a5eb;
+    text-align: center;
+    color: white;
+}
+
+.choice-suffix
+{
+    padding: 1.5rem 2.5rem;
+}
+
+.btns
+{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn
+{
+    padding: 1.5rem;
+    margin-right: 1rem;
+    text-align: center;
+    width: 15rem;
+    border: 0.1rem solid lightblue;
+}
+
+.choiceContainer:hover
+{
+    cursor: pointer;
+    box-shadow: 0rem 0.4rem  lightsteelblue;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+    box-shadow: 0rem 0.4rem 1rem lightsteelblue;
+    background-color: lightcyan;
+}
+
+.progress-bar
+{
+    border: 1px solid lightblue;
+    width: 10%;
+    height: 20px;
+    margin-right: 200px;
+}
+#insideBar
+{
+    height: 20px;
+    background-color: #56a5eb;
+}
+#question
+{
+    margin-right: 200px;
+
+}

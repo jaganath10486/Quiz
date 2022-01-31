@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizModel</title>
+    <style>
+        body{
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        .content{
+            margin-left: 400px;
+            margin-right: 440px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .Questions{
+            padding-left: 10px;;
+            font-weight: 600;
+        }
+        .answers{
+            padding: 10px;
+        }
+        .answers label{
+            display: block;
+        }
+        .ans{
+            padding-bottom: 30px;
+            padding-left: 10px;
+        }
+        #submit{
+            margin: 10px;
+            margin-left: 200px;
+            font-size: 20px;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: green;
+        }
+        #submit:hover{
+            background-color: blue;   
+        }
+        #result{
+            padding-left: 160px;
+        }
+        @media screen and (max-width: 1080px) 
+        {
+            .content{
+                margin: 0px 0px 0px 0px;
+                border: none;
+            }
+            #submit{
+                margin-left: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Sample Quiz Model</h1>
+        <div id="Quiz_body"></div>
+        <button  id="submit">Submit</button>
+        <div id="result"></div>
+    </div>
+    <script src="sample_Quiz.js">
+    </script>
+</body>
+</html>

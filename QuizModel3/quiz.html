@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h3 id = "question">Question</h3>
+        <div class="progress-bar">
+          <div id="insideBar"></div>
+        </div>
+        <div class="qns-ans" class='justify-center flex-column'>
+           <h2 id = 'questions'>What is answer to the question</h2>
+           <div class="choiceContainer">
+             <p class='choice-prefix'>A</p>
+             <p class='choice-suffix' data-number="1">Choice 1</p>
+           </div>
+           <div class="choiceContainer">
+            <p class='choice-prefix' data-number="2">B</p>
+            <p class='choice-suffix' data-number="2">Choice 2</p>
+          </div>
+          <div class="choiceContainer">
+            <p class='choice-prefix' data-number="3">C</p>
+            <p class='choice-suffix' data-number="3">Choice 3</p>
+          </div>
+          <div class="choiceContainer">
+            <p class='choice-prefix' data-number="4">D</p>
+            <p class='choice-suffix' data-number="4">Choice 4</p>
+          </div>
+        </div>
+        <div class='btns'>
+            <button type='button' id='previous' class='btn'>Previou question</button>
+            <button id='next' class='btn'>Next question</button>
+            <button type='button' class = 'btn' id='submit'>Submit</button>
+        </div>
+    </div>
+    <script src="quiz.js">
+    </script>
+</body>
+</html>

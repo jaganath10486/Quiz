@@ -1,0 +1,136 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    height: 1300px;
+}
+
+.navbar{
+    top:0;
+    position:sticky;
+}
+
+.navbar img{
+    height: 60px;
+    width: 70px;
+}
+
+ul{
+    background-color: blue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 962px;
+    overflow: hidden;
+    float: right;
+}
+
+ul li{
+    float: right;
+}
+  
+li a{
+    display: block;
+    padding: 18px;
+    font-size: 20px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a.active{
+    background-color: green;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main img
+{
+    margin-top: 2px;
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.models
+{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.card
+{
+   float: left;
+   margin-top: 40px;
+   border: 1px solid lightslategray;
+   width: 338px;
+   margin-right: 70px;
+   height: 500px;
+}
+
+.card img
+{
+    width: 338px;
+    height: 300px;
+}
+
+.card-body
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.button
+{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 10%;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    box-shadow: 0rem 0.4rem 1rem lightsteelblue;
+}
+
+@media screen and (max-width: 1300px) 
+{
+    .navbar
+    {
+        position: relative;
+    }
+    ul
+    {
+        padding: 0;
+    }
+    li a
+    {
+      font-size : 15px;
+      padding : 12px;
+    }
+    .models
+    {
+      display : flex;
+      flex-direction : column;
+    }
+    .card
+    {
+      margin : 0px;
+      margin-bottom : 20px;
+      height : 510px;
+      width : 290px;
+    }
+    .card img
+    {
+      width : 290px;
+    
+    }
+}
