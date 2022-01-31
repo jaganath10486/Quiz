@@ -101,6 +101,28 @@ h1
     box-shadow: 0rem 0.4rem 1rem lightsteelblue;
 }
 
+#contact
+{
+    margin-top: 600px;
+    float: left;
+    margin-left: 150px;
+}
+.images a 
+{
+    padding: 20px;
+}
+
+.images img
+{
+    width:60px;
+    height:60px;
+}
+
+.images img:hover
+{
+    box-shadow: 10px 10px 18px #888888;
+}
+
 @media screen and (max-width: 1300px) 
 {
     .navbar
@@ -132,7 +154,10 @@ h1
     .card img
     {
       width : 290px;
-    
+    }
+    #contact
+    {
+        margin: 0px;
     }
 
 }
