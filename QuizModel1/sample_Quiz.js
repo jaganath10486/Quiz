@@ -4,31 +4,31 @@ const Result_container = document.getElementById("result");//To display Result
 //questons and choice array
 const MyQuestions = [
     {
-        question : "HTML Languages is easy to learn?",
+        question : "What is Web Language?",
         answer : {
-            a : "Easy",
-            b : "Difficult",
-            c : "Moderate"
+            a : "HTML",
+            b : "C",
+            c : "JAVA"
         },
         correct_answer : 'a'
     },
     {
-        question : "What is the Best Language?",
+        question : "HTML Stands For?",
         answer : {
-            a : "HTML",
-            b : "CSS",
-            c : "JS"
+            a : "Hypertext Markup Language",
+            b : "Hyperloaded Language",
+            c : "Design Language"
         },
-        correct_answer : 'b'
+        correct_answer : 'a'
     },
     {
         question : "CSS Stands for",
         answer   : {
-            a : "XYZ",
-            b : "ABC",
-            c : "XCV"
+            a : "Cascading Language",
+            b : "Cascading Style Sheets",
+            c : "Style Cascading"
         },
-        correct_answer : "c"
+        correct_answer : "b"
     }
 ];
 
